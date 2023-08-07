@@ -1,0 +1,29 @@
+#email {
+    background-color: black;
+    color: white;
+    padding: 15px 80px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact > h2 {
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.submit {
+    padding: 15px 80px;
+    color: black;
+    font-weight: 800;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(242, 194, 44);
+}

@@ -1,0 +1,64 @@
+.projectImage {
+    max-width: 700px;
+    height: auto;
+    opacity: 0.5;
+}
+
+.projectImage:hover {
+    opacity: 1;
+}
+
+.projectName {
+    font-size: 40px;
+}
+
+.projectDetails {
+    display: flex;
+    justify-self: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.details {
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn1, .btn2 {
+    background-color: rgb(24,24,24);
+    border: none;
+    font-size: 24px;
+    position: relative;
+}
+
+.btn1 {
+    margin-right: 40px;
+}
+
+.separator {
+    height: 1px;
+    width: 90vw;
+    background-color: white;
+}
+
+.btn1::after, .btn2::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white; 
+    transition: width 0.5s; 
+  }
+  
+  .btn1:hover::after, .btn2:hover::after {
+    width: 100%;
+  }
+

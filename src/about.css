@@ -1,0 +1,31 @@
+.about {
+    margin-bottom: 30px;
+    padding: 30px 350px;
+}
+
+.about h1 {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+
+.title {
+    font-size: 32px;
+    margin: 30px 0px;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white; 
+    transition: width 0.5s; 
+  }
+  
+  .title:hover::after {
+    width: 17%;
+  }

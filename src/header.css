@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 36px;
+    padding: 20px 0px;
+    font-family: 'Teko', sans-serif;
+}
+
+ul {
+    display: flex;
+    font-size: 24px;
+    gap: 45px;
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,58 @@
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techHeading {
+    font-size: 14px;
+    color: #808080;
+    margin: 30px 0px;
+}
+
+.cross {
+    max-width: 12px;
+    color: white;
+    margin: 6px;
+}
+
+.verticalLine {
+    margin: 6px;
+}
+
+.icon {
+   height: 80px;
+}
+
+.tray {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 20px 0px;
+}
+
+@keyframes rotateOnce {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+}
+  
+@keyframes translateOnce {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cross.rotateOnce {
+    animation: rotateOnce 0.6s linear; 
+}
+
+.verticalLine.translateOnce {
+  animation: translateOnce 0.6s linear;
+}
