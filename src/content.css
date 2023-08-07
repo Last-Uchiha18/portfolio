@@ -56,14 +56,14 @@
     .content {
         background: url('../public/profilePic1.jpeg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         padding: 50px;
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .bio {
-        font-size: 19px;
-        color: #868686;
         margin-right: 0px;
+        color: white;
     }
 
     .leftSection {
