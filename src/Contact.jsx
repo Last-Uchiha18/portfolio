@@ -5,8 +5,10 @@ function Contact() {
         <div className='contact' id="contactComponent">
             <h2>Let&apos;s Connect</h2>
             <form action="submit" method='post'>
-                <input type="email" name="email" id="email" placeholder='Enter Your Email' />
-                <button type='submit' className='submit'> Submit </button>
+                <div className="group">
+                    <input type="email" name="email" id="email" placeholder='Enter Your Email' />
+                    <button type='submit' className='submit'> Submit </button>
+                </div>
             </form>
         </div>
     )

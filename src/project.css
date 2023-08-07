@@ -62,3 +62,26 @@
     width: 100%;
   }
 
+  @media screen and (max-width: 768px) {
+    .projectImage {
+        max-width: 320px;
+        opacity: 1;
+    }
+
+    .projectName {
+        font-size: 24px;
+    }
+
+    .projectDetails {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .btn1, .btn2, h1, .details {
+        font-size: 16px;
+    }
+
+}

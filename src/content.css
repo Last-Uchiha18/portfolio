@@ -47,3 +47,26 @@
 }
 
 
+@media screen and (max-width: 768px) {
+   
+    .profilePic {
+        display: none;
+    }
+
+    .content {
+        background: url('../public/profilePic1.jpeg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 50px;
+    }
+
+    .bio {
+        font-size: 19px;
+        color: #868686;
+        margin-right: 0px;
+    }
+
+    .leftSection {
+        padding-top: 50px;
+    }
+}

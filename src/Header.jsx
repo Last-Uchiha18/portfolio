@@ -1,7 +1,8 @@
 import './header.css'
+import React, { useState } from 'react';
 
 function Header() {
-
+  
   const handleLinkClick = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
@@ -12,16 +13,16 @@ function Header() {
   };
   return (
     <header>
-        <div className="left-section">
-          <li><a href="">Nikhil Sharma</a></li>
+        <div>
+          <a href="">Nikhil Sharma</a>
         </div>
-        <div className="right-section">
-          <ul>
-            <li className='item1'><a href="">Home</a></li>
-            <li className='item2'><a href="#aboutComponent" onClick={(e) => handleLinkClick(e, 'aboutComponent')}>About</a></li>
-            <li className='item3'><a href="#projectsComponent" onClick={(e) => handleLinkClick(e, 'projectsComponent')}>Projects</a></li>
-            <li className='item4'> <a href="#contactComponent" onClick={(e) => handleLinkClick(e, 'contactComponent')}>Contact</a></li>
-          </ul>
+        <div className= 'right-section'>
+            <ul className='nav-links'>
+              <li className='item1'><a href="">Home</a></li>
+              <li className='item2'><a href="#aboutComponent" onClick={(e) => handleLinkClick(e, 'aboutComponent')}>About</a></li>
+              <li className='item3'><a href="#projectsComponent" onClick={(e) => handleLinkClick(e, 'projectsComponent')}>Projects</a></li>
+              <li className='item4'> <a href="#contactComponent" onClick={(e) => handleLinkClick(e, 'contactComponent')}>Contact</a></li>
+            </ul>
         </div>
     </header>
   )

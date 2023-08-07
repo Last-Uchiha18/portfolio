@@ -27,3 +27,21 @@
     border-radius: 10px;
     background-color: rgb(242, 194, 44);
 }
+
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 0px;
+        gap: 10px;
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .submit, #email {
+        margin: 10px;
+        padding: 15px 60px;
+    }
+}

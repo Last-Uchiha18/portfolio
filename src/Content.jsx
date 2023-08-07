@@ -17,9 +17,9 @@ function Content() {
                         of experience.
                     </h3>
                     <ul>
-                        <li className='linkedIn'> <a href="" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={24} /></a></li>
-                        <li className='github'> <a href="" target="_blank" rel="noopener noreferrer"> <FaGithub size={24} /></a></li>
-                        <li className='leetcode'> <a href="" target="_blank" rel="noopener noreferrer"> <FaCode size={24} /></a></li>
+                        <li className='linkedIn'> <a href="https://www.linkedin.com/in/nikhil-sharma9/" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={24} /></a></li>
+                        <li className='github'> <a href="https://github.com/Last-Uchiha18" target="_blank" rel="noopener noreferrer"> <FaGithub size={24} /></a></li>
+                        <li className='leetcode'> <a href="https://leetcode.com/las1_uchiha/" target="_blank" rel="noopener noreferrer"> <FaCode size={24} /></a></li>
                     </ul>
                 </div>
 

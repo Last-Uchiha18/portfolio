@@ -56,3 +56,18 @@
 .verticalLine.translateOnce {
   animation: translateOnce 0.6s linear;
 }
+
+@media screen and (max-width: 768px) {
+   
+  .icon {
+    height: 50px;
+ }
+
+ .tray {
+  gap: 20px;
+ }
+
+ .tech {
+  margin-top: -40px;
+ }
+}

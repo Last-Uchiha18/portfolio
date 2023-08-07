@@ -20,3 +20,30 @@ ul {
 .item1:hover, .item2:hover, .item3:hover, .item4:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  header {
+    display: block;
+    padding: 0px 50px;
+    padding-top: 20px;
+  }
+
+  .right-section.show-mobile-menu .nav-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    position: absolute;
+    top: 60px; /* Adjust this value as needed */
+    right: 10px; /* Adjust this value as needed */
+    z-index: 1;
+  }
+
+  .right-section.show-mobile-menu .nav-links li {
+    margin-bottom: 10px; /* Adjust this value as needed */
+  }
+}
