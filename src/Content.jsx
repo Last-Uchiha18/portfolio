@@ -24,7 +24,7 @@ function Content() {
                 </div>
 
           
-                <img src="./src/assets/profilePic.jpeg" alt="Fuck this shit" className='profilePic' />
+                <img src="/portfolio/profilePic.jpeg" alt="Fuck this shit" className='profilePic' />
               
         
             </div>

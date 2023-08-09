@@ -62,31 +62,31 @@ useEffect(() => {
     return (
         
         <div className="tech">
-                <img src="../public/cross.svg" alt="" className='cross' ref={crossRef} />
-                <img src="../public/rectangle-6.svg" alt="" className='verticalLine' ref={lineRef} style={{
+                <img src="/portfolio/cross.svg" alt="" className='cross' ref={crossRef} />
+                <img src="/portfolio/rectangle-6.svg" alt="" className='verticalLine' ref={lineRef} style={{
           width: '1px', height: '144px'}}/>
 
          
                 <h1 className='techHeading'>A few technologies I have worked with</h1>
                 <div className="tech">
                 <div className="tray">
-                    <img src="./src/assets/javascript.svg" alt="" className='icon'/>
-                    <img src="./src/assets/react.svg" alt="" className='icon'/>
-                    <img src="./src/assets/node.js.svg" alt="" className='icon'/>
-                    <img src="./src/assets/html5.svg" alt="" className='icon'/>
-                    <img src="./src/assets/css.svg" alt="" className='icon'/>
+                    <img src="/portfolio/javascript.svg" alt="" className='icon'/>
+                    <img src="/portfolio/react.svg" alt="" className='icon'/>
+                    <img src="/portfolio/node.js.svg" alt="" className='icon'/>
+                    <img src="/portfolio/html5.svg" alt="" className='icon'/>
+                    <img src="/portfolio/css.svg" alt="" className='icon'/>
                 </div>
                 <div className="tray">
-                    <img src="./src/assets/git.svg" alt="" className='icon'/>
-                    <img src="./src/assets/ios.svg" alt="" className='icon'/>
-                    <img src="./src/assets/python.svg" alt="" className='icon'/>
-                    <img src="./src/assets/salesforce.svg" alt="" className='icon'/>
-                    <img src="./src/assets/swift.svg" alt="" className='icon'/>
+                    <img src="/portfolio/git.svg" alt="" className='icon'/>
+                    <img src="/portfolio/ios.svg" alt="" className='icon'/>
+                    <img src="/portfolio/python.svg" alt="" className='icon'/>
+                    <img src="/portfolio/salesforce.svg" alt="" className='icon'/>
+                    <img src="/portfolio/swift.svg" alt="" className='icon'/>
                 </div>
                 </div>
 
-                <img src="./src/assets/cross.svg" alt="" className='cross' ref={crossRef1}/>
-                <img src="./src/assets/rectangle-6.svg" alt="" className='verticalLine'  ref ={lineRef1} style={{
+                <img src="/portfolio/cross.svg" alt="" className='cross' ref={crossRef1}/>
+                <img src="/portfolio/rectangle-6.svg" alt="" className='verticalLine'  ref ={lineRef1} style={{
           width: '1px', height: '144px'}}/>
                 
         </div>
