@@ -6,7 +6,7 @@ function Projects() {
     const projects = [
         {
             name: "Bike Rental", 
-            imgUrl: "./src/assets/bikeRental.png", 
+            imgUrl: "/portfolio/bikeRental.png", 
             details: `This application was created to provide users with a convenient and user-friendly platform for renting bikes online. 
             By seamlessly integrating React, JavaScript, HTML, and Tailwind CSS, I designed and developed an intuitive interface 
             that simplifies the bike rental process.`, 

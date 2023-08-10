@@ -6,7 +6,7 @@ function Project({name, imgUrl, details, codeUrl, previewUrl}) {
         <>
             <h1 className='projectName'>{name}</h1>
             <div className="projectDetails">
-                <div className="left"><img src={imgUrl} alt="" className='projectImage' /></div>
+                <div className="left"><a href="https://last-uchiha18.github.io/flights/"><img src={imgUrl} alt="" className='projectImage' /></a></div>
                 <div className="right">
                     <h1>Summary</h1>
                     <h2 className='details'>{details}</h2>
