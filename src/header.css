@@ -21,29 +21,53 @@ ul {
     opacity: 0.7;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
   }
 
   header {
-    display: block;
+    display: flex;
     padding: 0px 50px;
     padding-top: 20px;
+    justify-content: space-between;
+  } 
+
+  .hamburger{
+    display: inline;
   }
 
-  .right-section.show-mobile-menu .nav-links {
+  .ham a {
+    color: black;
+  }
+
+  .closeHam {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    
+  }
+}
+
+.ham {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
+    gap: 50px;
     flex-direction: column;
-    background-color: #333;
-    padding: 10px;
-    position: absolute;
-    top: 60px; /* Adjust this value as needed */
-    right: 10px; /* Adjust this value as needed */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
     z-index: 1;
-  }
-
-  .right-section.show-mobile-menu .nav-links li {
-    margin-bottom: 10px; /* Adjust this value as needed */
-  }
 }
